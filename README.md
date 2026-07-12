@@ -71,36 +71,6 @@ Multi-strategy stock screening engine with technical indicators and fundamental 
 
 > 日 K 线图、分时图、多周期切换
 
-### 🎯 AI Stock Picking / AI 选股
-
-- AI-assisted stock screening with intelligent analysis
-
-### 🔬 Strategy Backtesting / 策略回测
-
-- Historical backtesting engine
-- Key metrics: win rate, average return, max drawdown, Sharpe ratio
-- Multi-strategy cumulative return comparison chart
-- Supports 3-year backtest period
-
-> 回测引擎、胜率/收益/回撤/夏普比率、收益对比图
-
-### 📤 Data Export / 数据导出
-
-- CSV export
-- Excel (.xlsx) export with selectable save path
-
-> CSV / Excel 导出
-
-### 🔔 Desktop Features / 桌面特性
-
-- Auto-start on system boot
-- System notification on scan completion
-- Minimize to system tray
-- Keyboard shortcuts
-- Offline capable (local data cache)
-
-> 开机自启、扫描通知、系统托盘、快捷键、离线可用
-
 ---
 
 ## ⚙️ Installation / 安装
@@ -120,19 +90,6 @@ Double-click `AI-Stock-Picker-Setup-1.0.0.exe` and follow the installer. Custom 
 1. Download the `.apk` to your phone
 2. Enable **Install unknown apps** in Settings
 3. Open the APK to install
-
----
-
-## 🛠 Tech Stack / 技术栈
-
-| Layer | Technology |
-|-------|------------|
-| Desktop Framework | Electron |
-| Frontend | React 19 + TypeScript |
-| Build Tool | Vite + electron-vite |
-| State Management | Zustand |
-| Packaging | electron-builder |
-| Data Source | Tencent Market API |
 
 ---
 
